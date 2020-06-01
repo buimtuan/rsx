@@ -1,0 +1,24 @@
+{
+  "name": "myexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "node --nolazy --inspect-brk=9229 server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buimtuan/rsx.git"
+  },
+  "author": "Tuan Bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buimtuan/rsx/issues"
+  },
+  "homepage": "https://github.com/buimtuan/rsx#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
